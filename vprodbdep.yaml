@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: kalyandockernew/vprofiledb:v1
+          image: kalyandockernew/vprofiledb:V1
           args:
             - "--ignore-db-dir=lost+found"
           volumeMounts:
